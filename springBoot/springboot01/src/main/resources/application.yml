@@ -1,0 +1,18 @@
+server:
+  port: 8085
+user:
+  id: 1
+  username: afafafa
+  sex: 男
+  array:
+    - li
+    - zhang
+    - liu
+    - zhao
+  boos:
+    - id: 1
+      name: a1
+      sex: 女
+    - id: 2
+      name: a2
+      sex: 男

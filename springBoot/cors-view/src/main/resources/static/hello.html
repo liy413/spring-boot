@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery3.3.1.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <input type="button" value="点击获取" onclick="doget()">
+    <script>
+       function doget(){
+            $.get("http://localhost:8082/hello",function (msg) {
+                $("#app").html(msg);
+            })
+        }
+
+    </script>
+</body>
+</html>
